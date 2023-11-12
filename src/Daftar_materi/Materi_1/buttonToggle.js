@@ -7,7 +7,7 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-const Materi_1_1 = () => {
+const ButtonToggle = () => {
   const [currenLeft, setCurrentLeft] = useState(true);
   const animation = useSharedValue(0);
 
@@ -73,4 +73,4 @@ const styles = StyleSheet.create({
     borderRadius: 100,
   },
 });
-export default Materi_1_1;
+export default ButtonToggle;
