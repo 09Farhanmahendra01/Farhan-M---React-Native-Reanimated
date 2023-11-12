@@ -2,17 +2,15 @@ import {View, Text, StyleSheet} from 'react-native';
 import React from 'react';
 
 // List screen
-import Materi_1_1 from './Daftar_materi/Materi_1/Materi_1.1';
-import Login from './RNEUI/screen_login';
+import ButtonToggle from './Daftar_materi/Materi_1/buttonToggle';
+import ButtonToggleEventHandler from './Daftar_materi/Materi_1/buttonToggleEventHandler';
 
 const App = () => {
   return (
     <View style={styles.container}>
       {/* Materi 1.1 */}
-      <Materi_1_1 />
-
-      {/* RNEUI */}
-      {/* <Login /> */}
+      <ButtonToggleEventHandler />
+      {/* <ButtonToggle /> */}
     </View>
   );
 };
